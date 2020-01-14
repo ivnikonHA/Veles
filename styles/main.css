@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 1200px;
+    overflow-x: hidden;
+  
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+  
+    background-color: #ffffff;
+}
+  
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.main-menu-item {
+    list-style: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
