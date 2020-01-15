@@ -1,31 +1,187 @@
 body {
     margin: 0;
     padding: 0;
-    min-width: 1200px;
-    overflow-x: hidden;
   
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
     color: #000000;
-  
     background-color: #ffffff;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
 }
   
 a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1178px;
+    margin: 0 auto;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 900;
     text-align: center;
+    padding-top: 60px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-menu-item {
+    margin-top: 46px;
+    margin-bottom: 100px;
     list-style: none;
     font-size: 14px;
     text-transform: uppercase;
 }
 
+.main-menu-item a {
+    color: #000000;
+}
+
+.main-banner {
+    background: url(../img/Hotel-11.jpg) no-repeat center;
+    padding-top: 9px;
+    padding-bottom: 75px;
+}
+
+.new-sign {
+    margin: 0 auto;
+    /* margin-top: 9px; */
+    width: 99px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ff7931;
+}
+
+.banner-header {
+    margin-top: 44px;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 85px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner-control {
+    width: 955px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.arrows-banner {
+    width: 68px;
+    background: url(../img/arrows.svg);
+}
+
+.prev-banner {
+    position: relative;
+}
+
+.prev-banner::after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 85px;
+    width: 64px;
+    height: 3px;
+    background-image: url(../img/Vector3.1.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.next-banner {
+    position: relative;
+}
+
+.next-banner::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: -69px;
+    width: 64px;
+    height: 3px;
+    background-image: url(../img/Vector3.1.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.banner-text {
+    margin-top: 55px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.news h2 {
+    margin-top: 46px;
+}
+
+.main-news {
+    float: left;
+    width: 470px;
+    background: url(../img/news-big.jpg) no-repeat center;
+}
+
+.main-news-header {
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+    padding-left: 23px;
+    padding-top: 238px;
+}
+
+.main-news-text {
+    padding-left: 23px;
+    padding-bottom: 21px;
+}
+
+.news-list-item {
+    list-style: none;
+}
+
+.news-list-item img {
+    float: left;
+}
+
+.news-list-text {
+    width: 132px;
+    float: right;
+}
+
+.news-item-header {
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.news-text {
+    font-size: 10px;
+}

@@ -11,50 +11,57 @@
 </head>
 <body>
     <header>
-        <h1>Новости культуры</h1>
-        <nav>
-            <ul class="main-menu">
-                <li class="main-menu-item">Новости</li>
-                <li class="main-menu-item">Обзоры</li>
-                <li class="main-menu-item">Музыка</li>
-                <li class="main-menu-item">Архитектура</li>
-                <li class="main-menu-item">Кино</li>
-                <li class="main-menu-item">Театр</li>
-                <li class="main-menu-item">Литература</li>
-                <li class="main-menu-item">Религия</li>
-                <li class="main-menu-item">Живопись</li>
-            </ul>
-        </nav>
-        <main>
-            <section class="main-banner">
-                <div class="new-sign">
-                    Новое
-                </div>
-                <h2 class="banner-header">Подводный отель</h2>
-                <div class="banner-control">
-                    <p class="prev-banner">Предыдущая</p>
-                    <p class="next-banner">Следующая</p>
-                </div>
-                <p class="banner-text">
-                    Как известно, Дубай – город контрастов. Самые революционные 
-и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет нефти
-                </p>
-            </section>
+        <div class="container">
+            <h1>Новости культуры</h1>
+            <nav>
+                <ul class="main-menu">
+                    <li class="main-menu-item"><a href="#">Новости</a></li>
+                    <li class="main-menu-item"><a href="#">Обзоры</a></li>
+                    <li class="main-menu-item"><a href="#">Музыка</a></li>
+                    <li class="main-menu-item"><a href="#">Архитектура</a></li>
+                    <li class="main-menu-item"><a href="#">Кино</a></li>
+                    <li class="main-menu-item"><a href="#">Театр</a></li>
+                    <li class="main-menu-item"><a href="#">Литература</a></li>
+                    <li class="main-menu-item"><a href="#">Религия</a></li>
+                    <li class="main-menu-item"><a href="#">Живопись</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="main-banner">
+            <div class="new-sign">
+                Новое
+            </div>
+            <h2 class="banner-header">Подводный отель</h2>
+            <div class="banner-control">
+                <p class="prev-banner">Предыдущая</p>
+                <div class="arrows-banner"></div>
+                <p class="next-banner">Следующая</p>
+            </div>
+            <p class="banner-text">
+                Как известно, Дубай – город контрастов. Самые революционные<br> 
+и фантастические мечты архитекторов способен воплотить в жизнь</br> этот мегаполис, построенный на нефти и за счет нефти
+            </p>
+        </section>
+        <div class="container">
             <section class="news">
                 <h2>Новости</h2>
                 <div class="main-news">
                     <h3 class="main-news-header">Новости культуры России и всего мира</h3>
-                    <p class="main-news-text">В минувшие выходные в Москве на фестивале «Оберег» 
+                    <p class="main-news-text">В минувшие выходные в Москве на фестивале «Оберег»<br> 
                         вручили первую премию Russian World Music Awards</p>
                 </div>
                 <ul class="news-list">
                     <li class="news-list-item">
                         <img src="./img/news-small1.jpg" alt="Leonov statue" class="news-item-img">
-                        <h3 class="news-item-header">Открытие нового 
-                            памятника 
-                            Евгению Леонову</h3>
-                        <p class="news-text">10 сентября в 15:00 был
-                            открыт памятник писателю</p>
+                        <div class="news-list-text">
+                            <h3 class="news-item-header">Открытие нового 
+                                памятника 
+                                Евгению Леонову</h3>
+                            <p class="news-text">10 сентября в 15:00 был
+                                открыт памятник писателю</p>
+                        </div>
                     </li>
                     <li class="news-list-item">
                         <img src="./img/news-small2.jpg" alt="writers" class="news-item-img">
@@ -142,23 +149,23 @@
                 </ul>
                 <button class="next-previews-btn"></button>
             </section>
-        </main>
-        <footer>
-            <h2 class="footer-header">Новости культуры</h2>
-            <nav class="footer">
-                <ul class="footer-menu">
-                    <li class="main-menu-item">Новости</li>
-                    <li class="main-menu-item">Обзоры</li>
-                    <li class="main-menu-item">Музыка</li>
-                    <li class="main-menu-item">Архитектура</li>
-                    <li class="main-menu-item">Кино</li>
-                    <li class="main-menu-item">Театр</li>
-                    <li class="main-menu-item">Литература</li>
-                    <li class="main-menu-item">Религия</li>
-                    <li class="main-menu-item">Живопись</li>
-                </ul>
-            </nav>
-        </footer>
-    </header>   
+        </div>
+    </main>
+    <footer>
+        <h2 class="footer-header">Новости культуры</h2>
+        <nav class="footer">
+            <ul class="footer-menu">
+                <li class="main-menu-item">Новости</li>
+                <li class="main-menu-item">Обзоры</li>
+                <li class="main-menu-item">Музыка</li>
+                <li class="main-menu-item">Архитектура</li>
+                <li class="main-menu-item">Кино</li>
+                <li class="main-menu-item">Театр</li>
+                <li class="main-menu-item">Литература</li>
+                <li class="main-menu-item">Религия</li>
+                <li class="main-menu-item">Живопись</li>
+            </ul>
+        </nav>
+    </footer> 
 </body>
 </html>
